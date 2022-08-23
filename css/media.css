@@ -1,0 +1,28 @@
+/* маленькие экраны */
+@media(max-width:1200px) {
+    .container {
+        max-width: 970px;
+        background-color: coral;
+    }
+}
+
+/* Планшеты */
+@media(max-width:992px) {
+    .container {
+        max-width: 750px;
+        background-color: green;
+    }
+
+    .col-4 {
+        flex: 0 1 100%;
+    }
+}
+
+/* мобильные устройства */
+
+@media(max-width:767px) {
+    .container {
+        max-width: none;
+        background-color: red;
+    }
+}
